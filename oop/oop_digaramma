@@ -1,0 +1,105 @@
+**OOP ning 4 ta asosiy prinsipi** Dart misollari bilan emas, balki **umumiy diagramma** va **real hayotdagi misollar** bilan tushuntirib beraman.
+
+---
+
+## **1. Inkapsulyatsiya (Encapsulation)**
+
+**Diagramma:**
+
+```
+┌───────────────┐
+│    Obyekt     │
+│ ┌───────────┐ │
+│ │ Ma'lumot  │ │  <- Private (yashirilgan)
+│ └───────────┘ │
+│  Metodlar     │  <- Faqat ruxsat berilgan yo‘llar bilan o‘zgaradi
+└───────────────┘
+```
+
+**Real hayotdagi misol:**
+Bank kartangizda **PIN-kod** mavjud. Siz PIN-ni yashirasiz (private),
+va faqat bankomat orqali (getter/setter) kartangizdagi pulga kirish mumkin.
+
+---
+
+## **2. Meros olish (Inheritance)**
+
+**Diagramma:**
+
+```
+Hayvon (Animal) ← Superclass
+   ↑
+   │
+It (Dog) ← Subclass
+```
+
+**Real hayotdagi misol:**
+"Hayvon" degan umumiy toifa bor. It, mushuk, ot hammasi hayvonlar guruhiga kiradi.
+Ular **nafas olish** kabi umumiy xususiyatlarni meros qilib oladi, lekin o‘ziga
+xos harakatlari ham bo‘ladi (it — vovillaydi, mushuk — miyovlaydi).
+
+---
+
+## **3. Polimorfizm (Polymorphism)**
+
+**Diagramma:**
+
+```
+Animal myPet;
+
+myPet = Dog() → makeSound() → "Vov!"
+myPet = Cat() → makeSound() → "Miyov!"
+```
+
+**Real hayotdagi misol:**
+Sizning telefoningizdagi **"Ovoz chiqar"** tugmasi turli qurilmalarda boshqacha ishlaydi:
+
+* Telefon qo‘ng‘iroq chalinadi
+* Kompyuter qo‘ng‘iroq tovushi chiqaradi
+* Televizor ovozli bildirishnoma chiqaradi
+  Bitta buyruq — turlicha natija.
+
+---
+
+## **4. Abstraksiya (Abstraction)**
+
+**Diagramma:**
+
+```
+[Abstract Class: Transport]
+  |
+  ├── Car → startEngine()
+  ├── Bike → startEngine()
+```
+
+**Real hayotdagi misol:**
+Siz mashina haydashni bilasiz, lekin uning dvigatel ichida qanday ishlashini
+bilishingiz shart emas. Siz faqat **"dvigatelni ishga tushurish"** tugmasini
+bilasiz, ichki murakkab tizim yashirilgan.
+
+---
+
+## **Bitta umumiy rasmiy diagramma**
+
+```
+┌────────────────────────────────┐
+│          Abstraksiya           │ ← Faqat kerakli narsani ko‘rsatish
+└────────────────────────────────┘
+    ↑
+    │
+┌────────────────────────────────┐
+│         Meros olish            │ ← Umumiy xususiyatlarni meros qilib olish
+└────────────────────────────────┘
+    ↑
+    │
+┌────────────────────────────────┐
+│         Polimorfizm            │ ← Bitta nom, turlicha ishlash
+└────────────────────────────────┘
+    ↑
+    │
+┌────────────────────────────────┐
+│       Inkapsulyatsiya          │ ← Ma’lumotni himoyalash
+└────────────────────────────────┘
+```
+
+---

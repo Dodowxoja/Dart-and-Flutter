@@ -1,0 +1,35 @@
+https://www.youtube.com/watch?v=m_MQYyJpIjg&t=498s&ab_channel=ComputerScienceLessons
+
+--- Object Oriented Programming - Fundamental Concepts ---
+
+To create a objects programmatically you need a Class.
+A Class is a template for creating objects. A Class
+is a code written by programmer to define the attributes 
+and the operations of an object, attributes describe the
+object. They're sometimes referred to fields, because they
+contain data. Operations are behaviors of object and more commonly 
+they're known as methods. Objects are instance of a class in the
+computer's memory
+
+The four fundamental concepts of OOP are
+* Abstraction
+* Encapsulation
+* Inheritance
+* Polymorphism
+
+Before considering what they mean first consider what is an Object.
+An Object is a thing from the real world
+A thing that you want to store and process data about
+Another name for an object is an entity.
+
+Abstraction means to simplify reality and focus only on the data and
+processes relevant to the application being built
+
+Encapsulation is hiding data and complexity 
+
+Inheritance is a class can derive its methods and properties from another 
+class, resulting in a hierarchy of classes
+
+Polymorphism is a class can implement an inherited method in its own way.
+(Polymorphism literally means many forms). Different subclasses of the same
+superclass, can implement their shared interface in different ways.

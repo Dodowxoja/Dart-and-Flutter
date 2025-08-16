@@ -1,0 +1,35 @@
+⚡ **Flutter** — bu **Google** yaratgan **UI framework** bo‘lib, bitta koddan foydalanib **mobil (Android, iOS), web va desktop** ilovalarini ishlab chiqishga imkon beradi.
+
+---
+
+### 🔑 Asosiy xususiyatlari:
+
+* **Cross-platform**: Bitta kod yozib, bir nechta platformada ishlatish mumkin.
+* **Dart tilida yoziladi** (Flutter backend emas, UI framework hisoblanadi).
+* **Widget-based**: Hammasi widget — UI elementlari (button, text, layout).
+* **Hot Reload**: Kodni o‘zgartirib darhol natijasini ko‘rish imkoniyati.
+* **Tezkor ishlash**: Native darajada ishlaydi (C++ engine orqali).
+* **Katta community** va ko‘plab **ready-made paketlar** mavjud (pub.dev).
+
+---
+
+### 📌 Qanday ishlaydi?
+
+* Flutter ilovalari **Dart tilida yoziladi**.
+* Kod **Flutter engine** orqali **native kodga** aylantiriladi.
+* UI **Skia rendering engine** yordamida chiziladi (shuning uchun juda silliq va tez ishlaydi).
+
+---
+
+### ✅ Afzalliklari:
+
+* Bir kod → Ko‘p platforma.
+* Juda chiroyli UI yaratish mumkin.
+* Hot Reload → ishlab chiqish tezligi yuqori.
+* Performance native’ga yaqin.
+
+---
+
+👉 Xullas, **Flutter** — bu zamonaviy, qulay va kuchli framework bo‘lib, mobil, web va desktop ilovalarni bir vaqtning o‘zida ishlab chiqish uchun eng mashhur vositalardan biri.
+
+Muhammadxo‘ja, xohlaysanmi, men senga **Flutter’da eng oddiy “Hello World” dasturini** yozib beray?

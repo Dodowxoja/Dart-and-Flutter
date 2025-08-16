@@ -17,13 +17,6 @@ class Dog extends Animal {
   }
 }
 
-class Cat implements Animal {
-  @override
-  void speak() {
-    print("Mushuk ovozi");
-  }
-}
-
 void main() {
   Dog myDog = Dog();
   myDog.speak(); // Animal classidan meros olingan metod
